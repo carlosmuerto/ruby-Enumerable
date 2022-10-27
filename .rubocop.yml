@@ -50,3 +50,8 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+
+# DISABLE CRLF for window
+Layout/EndOfLine:
+  Enabled: true
+  EnforcedStyle: lf

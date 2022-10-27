@@ -6,4 +6,4 @@ puts(list.all? { |e| e < 5 })
 
 puts(list.all? { |e| e > 5 })
 
-puts(list.filter {|e| e.even?})
+puts(list.filter(&:even?))

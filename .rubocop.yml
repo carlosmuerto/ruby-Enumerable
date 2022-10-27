@@ -51,7 +51,6 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: false
 
-# DISABLE CRLF for window
+# DISABLE CRLF for windows systems
 Layout/EndOfLine:
-  Enabled: true
   EnforcedStyle: lf

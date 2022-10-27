@@ -1,5 +1,4 @@
 module MyEnumerable
-
   def all?
     @flag = true
     each do |e|
@@ -21,5 +20,4 @@ module MyEnumerable
 
     @return_list
   end
-
 end

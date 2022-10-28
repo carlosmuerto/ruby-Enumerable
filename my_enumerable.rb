@@ -11,6 +11,14 @@ module MyEnumerable
     @flag
   end
 
+  def any?
+    @flag = false
+    each do |e|
+      @flag = true if yield e
+    end
+    @flag
+  end
+
   def filter
     @return_list = []
 
